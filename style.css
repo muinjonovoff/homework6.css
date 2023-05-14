@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+.container1 {
+    
+  justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin-left: 100px;
+    
+}
+   ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    
+   }
+   .Doe {
+    color: rgba(201, 223, 11, 0.993);
+    font-family: 'Bruno Ace SC', cursive;
+   }
+   .container {
+    margin-left: 200px;
+    margin-top: 150px;
+   }
+   .head3 {
+    height: 20px;
+    /* border: 2px solid yellowgreen; */
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    background-color: rgba(201, 223, 11, 0.993);
+    font-size: 15px;
+   }
+   .head7 {
+    color: blue;
+   }
+   .container1 {
+    
+  justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin-left: 100px;
+    
+}
+   ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    
+   }
+   .container7 {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    left: 750px;
+    top: 0px;
+    margin-left: 190px;
+    margin-top: -250px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
+}
+.head11 {
+    position: absolute;
+    height: 300px;
+    width: 220px;
+    border: 3px solid yellowgreen;
+    border-radius: 5px;
+    left: 20px;
+    top: 20PX;
+    z-index:10; 
+    }
+.container7 img {
+    position: absolute; 
+    width: 220px;
+    height: 300px;
+    object-fit: cover;  
+    border-radius: 5px;
+     z-index:20 ;
+     
+}
+
+.middle {
+    border: 5px solid black;
+
+
+}
+body {
+    background-color: bisque;
+}
